@@ -1,3 +1,4 @@
+/*Mobile General CSS*/
 * {
 	box-sizing: border-box;
 	}
@@ -38,6 +39,8 @@ li > a:hover {
 	font-weight: bold;
 }
 
+/*Tested different values to achieve the final result*/
+/*Used margin top to space out containers*/
 .hidden-on-desktop {
 	text-align: center;
 	margin-top: 30px;
@@ -57,7 +60,8 @@ li > a:hover {
 .hidden-on-desktop a:link {
 	text-decoration: none;
 	}
-
+	
+/*Used below code to center the image*/
 img {
 	width: 100%;
 	}
@@ -76,7 +80,7 @@ img {
 	display: inline-block;
 	width: 10%;
 	}
-
+/*Below code for social media links to move right*/
 footer ul {
 	display: flex;
 	justify-content: flex-end;
@@ -97,7 +101,7 @@ footer a:hover{
 	color: blue;
 }
 
-
+/*Desktop CSS*/
 @media screen and (min-width: 992px) {
 
 
@@ -142,7 +146,7 @@ footer a:hover{
 	.sub-section {
 		width: 30%;
 		}
-
+	/*Moved social media icons to the bottom right of the page*/
 	footer {
 		margin-top: 600px;
 		display: flex;
@@ -151,6 +155,5 @@ footer a:hover{
 	footer ul {
 		list-style: none;
 		padding: 0;
-	}
-
+		}
 	}
