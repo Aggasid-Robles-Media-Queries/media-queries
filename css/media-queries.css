@@ -28,10 +28,15 @@ li {
 	}
 
 li > a {
+	text-decoration: none;
+	color: black;
 	display: block;
 	width: 100%;
 	padding: 20px 0;
 	}
+li > a:hover {
+	font-weight: bold;
+}
 
 .hidden-on-desktop {
 	text-align: center;
@@ -44,6 +49,7 @@ li > a {
 	padding: 20px 0;
 	display: block;
 	font-style: normal;
+	color: black;
 	border: 1px solid gray;
 	}
 
@@ -72,7 +78,6 @@ img {
 	}
 
 footer ul {
-	/*float: right;*/
 	display: flex;
 	justify-content: flex-end;
 	margin-left: auto;
@@ -87,6 +92,10 @@ footer a {
 	color: black;
 	padding: 1em;
 	}
+
+footer a:hover{
+	color: blue;
+}
 
 
 @media screen and (min-width: 992px) {
@@ -139,22 +148,9 @@ footer a {
 		display: flex;
 		justify-content: space-between;
 		}
-
 	footer ul {
 		list-style: none;
 		padding: 0;
-		margin-left: auto;
-		justify-content: flex-end;
-		}
-
-	footer p {
-		float: left;
-		}
-
-	footer a {
-		text-decoration: none;
-		color: black;
-		padding: 1em;
-		}
+	}
 
 	}
